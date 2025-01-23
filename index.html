@@ -2,13 +2,35 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Enlaces a Proyectos</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
-    <h1>Proyectos</h1>
-    <ul>
-        <li><a href="Proyecto/index.html">Versión Actual del Proyecto</a></li>
-        <li><a href="Proyecto_AAA/index.html">Versión Final del Proyecto</a></li>
-    </ul>
+<body class="bg-light">
+    <div class="container py-5">
+        <div class="text-center mb-4">
+            <h1 class="display-4 fw-bold">Proyectos</h1>
+            <p class="text-muted">Explora las diferentes versiones de nuestro proyecto.</p>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <ul class="list-group">
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        <a href="Proyecto/index.html" class="text-decoration-none text-primary fw-semibold">Versión Actual del Proyecto</a>
+                        <span class="badge bg-primary">Nuevo</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        <a href="Proyecto_AAA/index.html" class="text-decoration-none text-success fw-semibold">Versión Final del Proyecto</a>
+                        <span class="badge bg-success">Final</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
