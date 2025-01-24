@@ -10,8 +10,8 @@
 
 <body>
   <div class="mi-contenedor">
-    <header role="header">
-      <nav aria-label="Menu" role="navigation">
+    <header>
+      <nav aria-label="navegacion principal">
         <div class="svg-header">
           <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list"
             viewBox="0 0 16 16">
@@ -38,7 +38,7 @@
           <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
         </svg>
       </div>
-      <aside role="aside">
+      <aside>
         <a><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook"
           viewBox="0 0 16 16">
           <path
@@ -90,7 +90,7 @@
       </div>
     </header>
 
-    <section class="intro">
+    <section class="intro" role="section1">
       <hr>
       <p><strong>Most flexible one page</strong></p>
       <h2>A DIGITAL UNIVERSITY HELPING THE WORLD TO GAIN SOME SUCCESS</h2>
@@ -103,8 +103,8 @@
       <a href="#">LEARN MORE</a>
     </section>
 
-    <section class="articles">
-      <article>
+    <section class="articles" role="section2">
+      <article role="article1-section2">
         <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-pencil-square"
           viewBox="0 0 16 16">
           <path
@@ -115,7 +115,7 @@
         <h3>CAREER BUILDING</h3>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem ea modi</p>
       </article>
-      <article>
+      <article role="article2-section2">
         <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-gear"
           viewBox="0 0 16 16">
           <path
@@ -126,7 +126,7 @@
         <h3>STUDENT SETUP</h3>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem ea modi</p>
       </article>
-      <article>
+      <article role="article3-section2">
         <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-code-slash"
           viewBox="0 0 16 16">
           <path
@@ -137,8 +137,8 @@
       </article>
     </section>
 
-    <section class="gallery">
-      <article class="article1-gallery">
+    <section class="gallery" role="section3">
+      <article class="article1-gallery" role="article1-section3">
         <div class="gallery-div-1">
           <p><strong>Latest design of our company</strong></p>
           <h2>OUR UNIVERSITY GALLERY</h2>
@@ -153,7 +153,7 @@
             officia.</p>
         </div>
       </article>
-      <nav>
+      <nav aria-label="navegacion auxiliar">
         <ul>
           <li><a><strong>All</strong></a></li>
           <p>/</p>
@@ -167,7 +167,7 @@
         </ul>
       </nav>
       <img src="static/img/gallery.png" alt="gallery">
-      <article class="article2-gallery">
+      <article class="article2-gallery" role="article2-section3">
         <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-quote"
           viewBox="0 0 16 16">
           <path
@@ -189,8 +189,8 @@
       </article>
     </section>
 
-    <section class="machine">
-      <article>
+    <section class="machine" role="section4">
+      <article role="article1-section4">
         <div>
           <div>
             <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-dash-lg"
@@ -214,13 +214,13 @@
             d="M5.854 4.854a.5.5 0 1 0-.708-.708l-3.5 3.5a.5.5 0 0 0 0 .708l3.5 3.5a.5.5 0 0 0 .708-.708L2.707 8zm4.292 0a.5.5 0 0 1 .708-.708l3.5 3.5a.5.5 0 0 1 0 .708l-3.5 3.5a.5.5 0 0 1-.708-.708L13.293 8z" />
         </svg>
       </article>
-      <article>
-        <img src="./static/img/machine.png" />
+      <article role="article2-section4">
+        <img src="./static/img/machine.png" alt="imagenMachine"/>
       </article>
     </section>
 
-    <section class="pricing">
-      <article>
+    <section class="pricing" role="section5">
+      <article role="article1-section5">
         <hr>
         <p><strong>Most flexible one page</strong></p>
         <h2>VERY AFFORDABLE PRICING FOR ALL COURSES.</h2>
@@ -231,7 +231,7 @@
           iure ipsa maiores cumque ipsa maiores cumque.
         </p>
       </article>
-      <article>
+      <article role="article2-section5">
         <div class="pricing-div">
           <h3>STARTUP</h3>
           <p>Click dit button to chang ethis text. Lorem dolor sit amet, consectetur adipiscing elit.</p>
@@ -277,8 +277,8 @@
       </article>
     </section>
 
-    <section class="fotoperfil">
-      <article>
+    <section class="fotoperfil" role="section6">
+      <article role="article1-section6">
         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-quote"
           viewBox="0 0 16 16">
           <path
@@ -292,7 +292,7 @@
           nam</p>
         <img src="static\img\fotoPerfil.png" alt="fotoperfil">
       </article>
-      <article>
+      <article role="article2-section6">
         <p><strong>Elizabeth Taylor</strong></p>
         <p>Amazon</p>
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook"
@@ -310,9 +310,10 @@
           <path
             d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
         </svg>
+      </article>
     </section>
     
-    <footer>
+    <footer role="footer">
       <div>
         <p><strong>Lorem ipsum dolor sit amet consectetur</strong></p>
         <h2>DIGITAL UNIVERSITY</h2>
