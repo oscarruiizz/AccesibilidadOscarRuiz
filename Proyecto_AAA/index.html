@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Digital University</title>
-  <link rel="stylesheet" href="./static/css/style.css" />
+  <link rel="stylesheet" href="./static/css/style.css" />  
 </head>
 
 <body>
@@ -25,12 +25,12 @@
               class="bi bi-caret-down-fill" viewBox="0 0 16 16">
               <path
                 d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
-            </svg><a>HOME</a></li>
-          <li><a>ABOUT</a></li>
-          <li><a>GALLERY</a></li>
-          <li><a>COURSES</a></li>
-          <li><a>BLOG</a></li>
-          <li><a>CONTACT</a></li>
+            </svg><a href="#intro">HOME</a></li>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">GALLERY</a></li>
+          <li><a href="#">COURSES</a></li>
+          <li><a href="#">BLOG</a></li>
+          <li><a href="#">CONTACT</a></li>
         </ul>
       </nav>
       <div class="div-svg">
@@ -90,21 +90,22 @@
       </div>
     </header>
 
-    <section class="intro" role="section1">
+    <section class="intro" aria-labelledby="section1" id="intro">
       <hr>
       <p><strong>Most flexible one page</strong></p>
-      <h2>A DIGITAL UNIVERSITY HELPING THE WORLD TO GAIN SOME SUCCESS</h2>
+      <h2 id="section1">A DIGITAL UNIVERSITY HELPING THE WORLD TO GAIN SOME SUCCESS</h2>
       <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate doloremque accusantium ratione odio
-        incidunt?
-        Dolorum ipsa maiores cumque perspiciatis mollitia modi? A suscipit impedit totam vitae saepe deserunt nulla
-        iure. Voluptate doloremque accusantium ratione odio
+        incidunt? Dolorum ipsa maiores cumque perspiciatis mollitia modi? A suscipit impedit totam vitae saepe
+        deserunt nulla iure. Voluptate doloremque accusantium ratione odio.
       </p>
-      <a href="#">LEARN MORE</a>
+      <a href="#">Learn more about our digital university</a>
     </section>
+    
 
-    <section class="articles" role="section2">
-      <article role="article1-section2">
+    <section class="articles" aria-labelledby="section2">
+      <h2 id="section2" hidden>OUR COURSES</h2>
+      <article aria-labelledby="article1-section2">
         <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-pencil-square"
           viewBox="0 0 16 16">
           <path
@@ -112,10 +113,10 @@
           <path fill-rule="evenodd"
             d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5z" />
         </svg>
-        <h3>CAREER BUILDING</h3>
+        <h3 id="article1-section2">CAREER BUILDING</h3>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem ea modi</p>
       </article>
-      <article role="article2-section2">
+      <article aria-labelledby="article2-section2">
         <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-gear"
           viewBox="0 0 16 16">
           <path
@@ -123,25 +124,26 @@
           <path
             d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115z" />
         </svg>
-        <h3>STUDENT SETUP</h3>
+        <h3 id="article2-section2">STUDENT SETUP</h3>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem ea modi</p>
       </article>
-      <article role="article3-section2">
+      <article aria-labelledby="article3-section2">
         <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-code-slash"
           viewBox="0 0 16 16">
           <path
             d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0m6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0" />
         </svg>
-        <h3>LATEST TECHNOLOGIES</h3>
+        <h3 id="article3-section2">LATEST TECHNOLOGIES</h3>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem ea modi</p>
       </article>
     </section>
 
-    <section class="gallery" role="section3">
-      <article class="article1-gallery" role="article1-section3">
+    <section class="gallery" aria-labelledby="section3">
+      <h2 id="section3" hidden>OUR UNIVERSITY GALLERY</h2>
+      <article class="article1-gallery" aria-labelledby="article1-section3">
         <div class="gallery-div-1">
           <p><strong>Latest design of our company</strong></p>
-          <h2>OUR UNIVERSITY GALLERY</h2>
+          <h2 id="article1-section3">OUR UNIVERSITY GALLERY</h2>
         </div>
         <div class="gallery-div-2">
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non modi voluptatibus nobis sit, veritatis natus
@@ -167,13 +169,13 @@
         </ul>
       </nav>
       <img src="static/img/gallery.png" alt="gallery">
-      <article class="article2-gallery" role="article2-section3">
+      <article class="article2-gallery" aria-labelledby="article2-section3">
         <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-quote"
           viewBox="0 0 16 16">
           <path
             d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z" />
         </svg>
-        <h3>
+        <h3 id="article2-section3">
           <strong>EDUCATION</strong> IS ALLOWING YOURSELF TO MAKE MISTAKES ART IS KNOWING
           WHICH ONES YOU KEEP.
         </h3>
@@ -189,8 +191,8 @@
       </article>
     </section>
 
-    <section class="machine" role="section4">
-      <article role="article1-section4">
+    <section class="machine" aria-labelledby="section4">
+      <article aria-labelledby="article1-section4" id="section4">
         <div>
           <div>
             <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-dash-lg"
@@ -199,7 +201,7 @@
             </svg>
             <p>Most flexible one page</p>
           </div>
-          <h2>MACHINE LEARNING DIGITAL LATEST COURSE 2020</h2>
+          <h2 id="article1-section4">MACHINE LEARNING DIGITAL LATEST COURSE 2020</h2>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos
             dolorem eligendi animi consectetur ratione inventore. Delectus
@@ -214,16 +216,17 @@
             d="M5.854 4.854a.5.5 0 1 0-.708-.708l-3.5 3.5a.5.5 0 0 0 0 .708l3.5 3.5a.5.5 0 0 0 .708-.708L2.707 8zm4.292 0a.5.5 0 0 1 .708-.708l3.5 3.5a.5.5 0 0 1 0 .708l-3.5 3.5a.5.5 0 0 1-.708-.708L13.293 8z" />
         </svg>
       </article>
-      <article role="article2-section4">
+      <article aria-labelledby="article2-section4">
+        <h4 id="article2-section4" hidden>Machine Learning</h4>
         <img src="./static/img/machine.png" alt="imagenMachine"/>
       </article>
     </section>
 
-    <section class="pricing" role="section5">
-      <article role="article1-section5">
+    <section class="pricing" aria-labelledby="section5">
+      <article aria-labelledby="article1-section5" id="section5">
         <hr>
         <p><strong>Most flexible one page</strong></p>
-        <h2>VERY AFFORDABLE PRICING FOR ALL COURSES.</h2>
+        <h2 id="article1-section5">VERY AFFORDABLE PRICING FOR ALL COURSES.</h2>
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate doloremque accusantium ratione odio
           incidunt?
@@ -231,9 +234,9 @@
           iure ipsa maiores cumque ipsa maiores cumque.
         </p>
       </article>
-      <article role="article2-section5">
+      <article aria-labelledby="article2-section5">
         <div class="pricing-div">
-          <h3>STARTUP</h3>
+          <h3 id="article2-section5">STARTUP</h3>
           <p>Click dit button to chang ethis text. Lorem dolor sit amet, consectetur adipiscing elit.</p>
           <div>
             <span>$</span>
@@ -244,10 +247,10 @@
           <p>Unlimited Bandwidth</p>
           <p>Email Accounts</p>
           <p>8 Dree Forks Every Months</p>
-          <a href="#">Learn More</a>
+          <a href="#">Learn More of STARTUP</a>
         </div>
         <div class="pricing-div">
-          <h3><strong>STANDARD</strong></h3>
+          <h3 id="article3-section5"><strong>STANDARD</strong></h3>
           <p>Click dit button to chang ethis text. Lorem dolor sit amet, consectetur adipiscing elit.</p>
           <div class="price-container">
             <span>$</span>
@@ -258,10 +261,10 @@
           <p>Unlimited Bandwidth</p>
           <p>Email Accounts</p>
           <p>8 Dree Forks Every Months</p>
-          <a href="#">Learn More</a>
+          <a href="#">Learn More of STANDARD</a>
         </div>
         <div class="pricing-div">
-          <h3>PREMIUM</h3>
+          <h3 id="article4-section5">PREMIUM</h3>
           <p>Click dit button to chang ethis text. Lorem dolor sit amet, consectetur adipiscing elit.</p>
           <div>
             <span>$</span>
@@ -272,19 +275,19 @@
           <p>Unlimited Bandwidth</p>
           <p>Email Accounts</p>
           <p>8 Dree Forks Every Months</p>
-          <a href="#">Learn More</a>
+          <a href="#">Learn More of PREMIUM</a>
         </div>
       </article>
     </section>
 
-    <section class="fotoperfil" role="section6">
-      <article role="article1-section6">
+    <section class="fotoperfil" aria-labelledby="section6">
+      <article aria-labelledby="article1-section6" id="section6">
         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-quote"
           viewBox="0 0 16 16">
           <path
             d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z" />
         </svg>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia suscipit nihil veniam distinctio illo? Rem
+        <p id="article1-section6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia suscipit nihil veniam distinctio illo? Rem
           repellat
           quibusdam aliquam quos nulla. Nam perspiciatis molestiae repellendus deleniti, ratione facere nobis quod
           laudantium. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem sit repudiandae
@@ -292,8 +295,8 @@
           nam</p>
         <img src="static\img\fotoPerfil.png" alt="fotoperfil">
       </article>
-      <article role="article2-section6">
-        <p><strong>Elizabeth Taylor</strong></p>
+      <article aria-labelledby="article2-section6">
+        <p id="article2-section6"><strong>Elizabeth Taylor</strong></p>
         <p>Amazon</p>
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook"
           viewBox="0 0 16 16">
@@ -313,8 +316,8 @@
       </article>
     </section>
     
-    <footer role="footer">
-      <div>
+    <footer aria-labelledby="footer">
+      <div id="footer">
         <p><strong>Lorem ipsum dolor sit amet consectetur</strong></p>
         <h2>DIGITAL UNIVERSITY</h2>
         <p>123 Stree New York City, United States Of America.</p>
@@ -353,7 +356,7 @@
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1512.1197903900595!2d-74.00802706898331!3d40.712742100000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a220ce23381%3A0x2d58e75c6715ffbe!2s230%20Broadway%2C%20New%20York%2C%20NY%2010007%2C%20EE.%20UU.!5e0!3m2!1ses!2ses!4v1732026291708!5m2!1ses!2ses"
           width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"></iframe>
+          referrerpolicy="no-referrer-when-downgrade" title="Ubicación"></iframe>
       </div>
     </footer>
   </div>

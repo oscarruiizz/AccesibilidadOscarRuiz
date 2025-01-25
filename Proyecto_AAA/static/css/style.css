@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
 :root {
-  --primary-color: #13ba77;
+  --primary-color: #06633d;
+  --primary-color-hover: #0ba366;
   --letter-color:white;
   --icons-color:grey;
   --fondo-url: url('../img/fondo1.jpeg');
   --hover-color:black;
   --fondo-perfil: url('../img/fondoPerfil.png');
+  --color-letra-corregido: #ffffff;
 }
 
 *{
@@ -33,6 +35,26 @@ nav{
   display: flex;
   justify-content: space-between;
 }
+
+a {
+  text-decoration: none;
+  color: inherit;
+  outline: thin dotted transparent;
+}
+
+input {
+  outline: thin dotted transparent;
+}
+
+button {
+  outline: thin dotted transparent;
+}
+
+a:focus {
+  color: var(--primary-color);
+}
+
+:focus {outline: none}
 
 h2{
   font-size: 2rem;
@@ -160,7 +182,7 @@ header * {
   .hero h1 {
     font-size: 3rem;
     max-width: 400px;
-  }
+  } 
   
   .hero p {
     font-size: 1.2rem;
@@ -194,12 +216,11 @@ header * {
     border: none;
     cursor: pointer;
     border-radius: 7em;
-    color: white;
+    color: var(--color-letra-corregido);
   }
   
   .form-container button:hover {
-    background-color: var(--letter-color);
-    color: var(--hover-color);
+    background-color: var(--primary-color-hover);
   }
 
   
