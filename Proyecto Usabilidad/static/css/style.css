@@ -639,10 +639,6 @@ footer svg{
       color: transparent;
     }
   
-    .hero p {
-      max-width: 500px;
-    }
-
     .hero svg{
       transform: translate(60%, 60%);
     }
@@ -654,6 +650,13 @@ footer svg{
     }
 
     /* Intro  articles*/
+    aside{
+      display: flex;
+      flex-direction: row;
+      top: 90%;
+      right: 43%;
+    }
+
     .articles article {
       width: 100%;
     }
@@ -700,10 +703,6 @@ footer svg{
     
     .hero h1 {
       font-size: 2rem;
-    }
-  
-    .hero p {
-      max-width: 300px;
     }
 
     .hero svg{
@@ -786,13 +785,6 @@ footer svg{
     }
 
     /* Intro  articles*/
-    aside{
-      display: flex;
-      flex-direction: row;
-      top: 50%;
-      right: 35%;
-      margin-top: 60px;
-    }
 
     .articles article h3 {
       font-size: 1rem;
