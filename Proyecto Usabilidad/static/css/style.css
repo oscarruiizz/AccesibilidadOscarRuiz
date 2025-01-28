@@ -607,7 +607,6 @@ footer svg{
   
   
     .hero p {
-      font-size: 1rem;
       max-width: 500px;
     }
 
@@ -662,7 +661,6 @@ footer svg{
     }
   
     .hero p {
-      font-size: 0.9rem;
       max-width: 300px;
     }
 
@@ -707,10 +705,6 @@ footer svg{
       padding: 1em;
     }
   
-    .hero h1 {
-      font-size: 1.8rem;
-    }
-  
     p {
       font-size: 0.7rem;
     }
@@ -729,7 +723,7 @@ footer svg{
       flex-direction: row;
       top: 50%;
       right: 35%;
-      margin-top: 30px;
+      margin-top: 60px;
     }
 
     .articles article h3 {
