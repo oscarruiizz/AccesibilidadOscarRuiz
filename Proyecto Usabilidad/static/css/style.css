@@ -725,6 +725,7 @@ footer svg{
       flex-direction: row;
       top: 50%;
       right: 35%;
+      margin-top: 30px;
     }
 
     .articles article h3 {
