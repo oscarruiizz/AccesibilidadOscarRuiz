@@ -26,7 +26,7 @@ strong {
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Oswald', Arial, sans-serif;
   background-color: var(--letter-color);
 }
 
@@ -76,12 +76,7 @@ h2{
     background-image: var(--fondo-url);
     background-size: cover;
     background-position: center;
-    height: 100%;
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    text-align: center;
     padding: 20px;
     margin-bottom: 50px;
     position: relative;
