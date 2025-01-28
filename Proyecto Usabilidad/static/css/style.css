@@ -638,6 +638,10 @@ footer svg{
     header nav ul li a:hover {
       color: transparent;
     }
+
+    .hero p{
+      color: var(--hover-color);
+    }
   
     .hero svg{
       transform: translate(60%, 60%);
