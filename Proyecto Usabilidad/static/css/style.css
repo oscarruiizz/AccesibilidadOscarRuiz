@@ -316,7 +316,7 @@ header * {
   }
   
   .gallery img{
-    width: 100%;
+    width: 1100px;
     margin-bottom: 5em;
   }
   
@@ -586,6 +586,10 @@ footer svg{
   }
 
   @media (max-width: 1200px) {
+
+    .gallery img{
+      width: 100%;
+    }
     /* Pricing Section */
     .pricing a{
       padding: 5px 15px;
