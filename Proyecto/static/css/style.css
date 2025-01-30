@@ -26,7 +26,7 @@ strong {
 
 body {
   font-family: Oswald, sans-serif;
-  background-color: var(--hover-color);
+  background-color: var(--letter-color);
 }
 
 nav{
@@ -416,6 +416,7 @@ header * {
   
   .pricing a {
     border-color: var(--hover-color);
+
     background-color: var(--letter-color);
     padding: 10px 30px;
     border-radius: 7em;
@@ -565,38 +566,6 @@ footer svg{
     }
     
   }
-
-  @media screen and (max-width: 1200px) {
-    /* Pricing Section */
-    .pricing a{
-      padding: 5px 15px;
-    }
-
-    .pricing p{
-      font-size: 13px;
-    }
-
-    span:nth-child(1) {
-      font-size: 12px;
-      bottom: 20px;
-      left: 5px;
-    }
-
-    span:nth-child(2) {
-      font-size: 40px;
-    }
-
-    /* Footer */
-    footer{
-      flex-direction: column;
-      text-align: center;
-    }
-    
-    footer div{
-      width: 100%;
-    }
-  }
-
   @media screen and (max-width: 1024px) {
     header h1 {
       font-size: 2rem;
@@ -655,19 +624,10 @@ footer svg{
     .machine article:nth-child(1) div:nth-last-child(2){
       padding: 70px 70px 0 100px;
     }
-
-    /* Pricing Section */
-    .pricing article:nth-child(1){
-      width: 60%;
-    }
-
-    .pricing article:nth-child(2){
-      width: 90%;
-    }
     
   }
   
-  @media (max-width: 788px) {
+  @media (max-width: 768px) {
     header h1 {
       font-size: 1.8rem;
     }
@@ -713,34 +673,8 @@ footer svg{
     }
 
     /* Pricing Section */
-    .pricing article:nth-child(2){
-      display: block;
+    .pricing article:nth-child(1){
       width: 60%;
-    }
-
-    /* FotoPerfil Section */
-    .fotoperfil article:nth-child(1) p{
-      font-size: 15px;
-    }
-
-    .fotoperfil img{
-      top: 55%;
-    }
-
-    /* Footer */
-    footer div:nth-child(2){
-      position: relative;
-      padding-bottom: 75%;
-      height: 0;
-      overflow: hidden;
-    }
-
-    footer div:nth-child(2) iframe{
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
     }
   }
   
@@ -788,11 +722,6 @@ footer svg{
 
     .articles article svg{
       width: 3rem;
-    }
-
-    /* FotoPerfil Section */
-    .fotoperfil img{
-      top: 60%;
     }
   }
   
